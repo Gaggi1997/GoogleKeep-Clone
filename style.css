@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #AB9A94;
+}
+h2{
+	color: #AB9A94;
+}
+.icon{
+	display: flex;
+	align-items: center;
+}
+.icon h2{
+	margin-left: 10px;
+}
+header img{
+	width: 2em;
+}
+.container{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.search .searchInput{
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	border: none;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	width: 20em;
+}
+.container .input{
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 10px;
+	width: 25em;
+	margin-top: 3em;
+}
+.search button{
+	border: none;
+	color: #EADDD9;
+	position: relative;
+	left: -1.5em;
+	top: 1px;
+	z-index: 1;
+	font-size: 1.8em;
+	background:transparent;
+	font-weight: bold;
+}
+.search button:hover{
+    cursor: pointer;
+	color: #AB9A94;
+}
+::placeholder{
+	color: #AB9A94;
+}
+.input:hover{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.container .addNote {
+	border: none;
+	color: #EADDD9;
+	position: relative;
+	top: -1.4em;
+	left: 7em;
+	z-index: 1;
+	font-size: 2em;
+	background:transparent;
+	font-weight: bold;
+}
+ .addNote:hover{
+	cursor: pointer;
+	color: #AB9A94;
+}
+.smallContainer{
+	min-height:15em;
+	width: 15em;
+	border-radius:10px;
+	border: 1px solid #EADDD9;
+	margin: 20px;
+}
+.smallContainer:nth-child(3n+2) {
+  background: #FCEDE9;
+}
+.smallContainer:nth-child(2n+3) {
+  background: #CFFBFA;
+}
+.smallContainer:nth-child(5n+3) {
+  background: #FFC1A4;
+}
+.smallContainer:hover{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	float: left;
+	width: 80%;
+	margin-left: 10vw;
+}
+.delBtn{
+	padding: 10px;
+	color: #AB9A94;
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+.delBtn .fa-solid{
+	font-size: 20px;
+}
+.delBtn .fa-solid:hover{
+	color: #EADDD9;
+}
+.myNote{
+	padding: 10px;
+}
+p{
+	word-wrap: break-word;
+	padding: 10px;
+}
